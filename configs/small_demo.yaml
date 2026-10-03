@@ -1,0 +1,7 @@
+epsilon: 1.0
+alpha: 12
+spatial_order: 4
+substream_mode: sliding
+clip_nonnegative: true
+seed: 7
+minimum_beta: 1.0e-9
