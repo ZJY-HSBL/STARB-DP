@@ -16,7 +16,7 @@ python -m venv .venv
 # Linux/macOS
 source .venv/bin/activate
 
-pip install -r requirements.txt
+pip install -e .
 python scripts/demo_synthetic.py
 python scripts/run_experiment.py --config configs/default.yaml
 pytest -q

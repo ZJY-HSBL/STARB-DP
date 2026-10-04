@@ -9,7 +9,10 @@ description = "SpatioTemporal Adaptive Release-Budget Differential Privacy"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
-dependencies = ["numpy>=1.26", "pandas>=2.1", "PyYAML>=6.0"]
+dependencies = ["numpy>=1.26", "pandas>=2.1", "PyYAML>=6.0", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
