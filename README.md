@@ -32,7 +32,6 @@ STARB-DP/
 │  ├─ processed/
 │  └─ sample/
 ├─ docs/
-├─ outputs/
 ├─ scripts/
 ├─ src/starbdp/
 ├─ tests/
@@ -41,7 +40,6 @@ STARB-DP/
 ├─ README_CN.md
 ├─ README_EN.md
 ├─ pyproject.toml
-├─ requirements.txt
 └─ LICENSE
 ```
 
